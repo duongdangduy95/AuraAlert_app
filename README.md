@@ -9,16 +9,16 @@
 - Hỗ trợ xóa lịch sử cảnh báo.
 
 Ứng dụng sử dụng:
-- 🛰️ HiveMQ Android MQTT Client (TLS 8883)
-- 📦 Room Database để lưu dữ liệu cục bộ
-- 🔔 Notification Manager cho cảnh báo đẩy
-- ⚙️ Android Service để duy trì kết nối nền
+-  HiveMQ Android MQTT Client (TLS 8883)
+-  Room Database để lưu dữ liệu cục bộ
+-  Notification Manager cho cảnh báo đẩy
+- ⚙ Android Service để duy trì kết nối nền
 
 ---
 ## Phần cứng của dự án
 Bạn có thể xem phần cứng của dự án và mô tả hoạt động chi tiết của dự án tại link: https://github.com/duongdangduy95/AuraAlert_esp32.git
 
-## 🚀 Hướng dẫn sử dụng
+##  Hướng dẫn sử dụng
 
 ### 1. **Yêu cầu**
 - Thiết bị Android chạy Android 6.0 trở lên
@@ -41,16 +41,28 @@ Bạn có thể:
 - Thay đổi chủ đề MQTT (`TOPIC`) trong `MqttManager.kt`
 - Thêm giao diện đẹp hơn bằng Jetpack Compose hoặc Material UI
 - Tích hợp đăng nhập người dùng (Firebase, v.v.)
-
 ---
 
-## 📸 Ảnh minh họa hoạt động
+## Hình ảnh app hoạt động
+- Trong Android Studio (khi nạp code cho máy Android và kiểm tra kết nối, bắt gói tin MQTT trong Logcat):
 
-## 🙏 Lời cảm ơn
+<img src="https://github.com/duongdangduy95/AuraAlert_esp32/raw/main/images/Screenshot%202025-05-20%20224357.png" width="500" />
+
+- Hình ảnh thông báo hiện lên trên điện thoại:
+
+<img src="https://github.com/duongdangduy95/AuraAlert_esp32/raw/main/images/hi%E1%BB%83n%20th%E1%BB%8B%20th%C3%B4ng%20b%C3%A1o%20tr%C3%AAn%20%C4%91i%E1%BB%87n%20tho%E1%BA%A1i.jpg" width="400"/>
+
+- Hình ảnh giao diện app cảnh báo (khá đơn giản, nó chỉ lưu lịch sử phát hiện người và có nút xóa lịch sử):
+
+<img src="https://github.com/duongdangduy95/AuraAlert_esp32/raw/main/images/h%C3%ACnh%20%E1%BA%A3nh%20app.jpg" width="400"/>
+
+  
+
+##  Lời cảm ơn
 
 Cảm ơn các bạn đã dành thời gian xem và sử dụng dự án **AuraAlert_app**. Dự án này vẫn đang trong quá trình hoàn thiện, nên mọi ý kiến đóng góp của các bạn sẽ là nguồn động lực rất lớn giúp mình cải thiện sản phẩm tốt hơn.
 
-## 💬 Góp ý & phản hồi
+##  Góp ý & phản hồi
 
 Mình rất mong nhận được góp ý, nhận xét hoặc bất kỳ đề xuất nào từ các bạn.  
 Nếu có thời gian, bạn có thể:
@@ -59,7 +71,7 @@ Nếu có thời gian, bạn có thể:
 - Gửi pull request
 - Hoặc đơn giản là để lại một comment chia sẻ cảm nhận 😄
 
-> ⚠️ **Lưu ý nhẹ nhàng**: Mong nhận được những góp ý **văn minh, tích cực** — xin tránh "gạch đá" dưới mọi hình thức nhé 😅
+> ⚠️ **Lưu ý nhẹ nhàng**: Mong nhận được những góp ý **văn minh, tích cực** — nghiêm cấm "gạch đá" dưới mọi hình thức 😅
 
 Cảm ơn các bạn rất nhiều! ❤️
 
